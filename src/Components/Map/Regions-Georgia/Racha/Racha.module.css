@@ -1,0 +1,9 @@
+.rachaQvemoSvaneti {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.rachaQvemoSvaneti:hover {
+  fill: rgb(170, 156, 104);
+}

@@ -1,0 +1,9 @@
+.mtskhetaMtianeti {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.mtskhetaMtianeti:hover {
+  fill: rgb(157, 231, 250);
+}

@@ -1,0 +1,9 @@
+.partMtskhetaMtianeti {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.partMtskhetaMtianeti:hover {
+  fill: rgb(157, 231, 250);
+}

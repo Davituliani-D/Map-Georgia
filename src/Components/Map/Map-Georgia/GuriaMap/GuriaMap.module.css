@@ -1,0 +1,9 @@
+.partGuria {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.partGuria:hover {
+  fill: rgb(240, 221, 145);
+}

@@ -1,0 +1,9 @@
+.imereti {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.imereti:hover {
+  fill: rgb(145, 169, 220);
+}

@@ -1,0 +1,13 @@
+.city {
+  fill: rgb(195, 191, 191);
+  cursor: pointer;
+  width: 700px;
+  height: 550px;
+  stroke-width: 1px;
+  stroke: rgb(249, 249, 249);
+}
+
+.Akhmeta:hover {
+  fill: rebeccapurple;
+  transition: 1s;
+}

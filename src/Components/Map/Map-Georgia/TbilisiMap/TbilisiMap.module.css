@@ -1,0 +1,9 @@
+.partTbilisi {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.partTbilisi:hover {
+  fill: rgb(245, 241, 7);
+}

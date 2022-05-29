@@ -1,0 +1,10 @@
+.ajara {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.ajara:hover {
+  fill: rgb(234, 138, 5);
+}

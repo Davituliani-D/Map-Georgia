@@ -1,0 +1,62 @@
+.appWrapper {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav content"
+    "footer footer";
+
+
+  grid-template-rows: 1fr 10fr;
+  grid-template-columns: 1fr 10fr;
+  margin: 0;
+  padding: 0;
+
+}
+.siteWrapper {
+  grid-area: content;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+  margin: 10px;
+}
+
+.header img {
+  width: 10px;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.content {
+  grid-area: content;
+}
+
+
+
+.geoMap {
+  position: relative;
+  text-align: center;
+  width: 900px;
+  left: 100px;
+}
+
+.mainSVG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  stroke-width: 1px;
+  stroke: rgb(249, 249, 249);
+}
+
+.svgMap {
+  padding: 100px;
+}
+
+.logo {
+  align-items: left;
+}
+
+

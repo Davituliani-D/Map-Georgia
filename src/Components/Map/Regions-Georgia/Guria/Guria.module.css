@@ -1,0 +1,9 @@
+.guria {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.guria:hover {
+  fill: rgb(240, 221, 145);
+}

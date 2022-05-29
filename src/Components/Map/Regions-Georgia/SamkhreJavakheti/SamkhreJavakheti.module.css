@@ -1,0 +1,9 @@
+.samkhreJavakheti {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.samkhreJavakheti:hover {
+  fill: rgb(185, 135, 176);
+}

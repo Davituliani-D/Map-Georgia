@@ -1,0 +1,9 @@
+.partAbkhazia {
+  fill: rgb(195, 191, 191);
+  transition: 0.5s;
+  cursor:not-allowed;
+}
+/* 
+.partAbkhazia:hover {
+  fill: rgb(113, 0, 11);
+} */

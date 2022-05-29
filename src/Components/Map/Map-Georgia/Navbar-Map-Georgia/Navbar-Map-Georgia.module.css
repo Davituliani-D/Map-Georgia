@@ -1,0 +1,29 @@
+.nav {
+    padding-left: 20px;
+    width: max-content;
+    margin-top: 100px;
+}
+
+p {
+    margin-top: 15px;
+    transition-property: color;
+    transition-duration: .3s;
+
+}
+
+p:hover {
+    cursor: pointer;
+    color: rgb(253, 3, 3);
+
+}
+
+.navicon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+img{
+    padding-right: 10px;
+}

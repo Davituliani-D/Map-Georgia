@@ -1,0 +1,9 @@
+.partQvemoQartli {
+  fill: rgb(195, 191, 191);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.partQvemoQartli:hover {
+  fill: rgb(133, 167, 157);
+}

@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        "h h h"
+        "l c r";
+
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-rows: 1fr 0;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    grid-area: h;
+}
+
+.leftbar {
+    grid-area: l;
+}
+
+.rightbar {
+    grid-area: r;
+}
+
+.content {
+    grid-area: c;
+    margin: auto;
+}
+
+.svgMap {
+
+}
