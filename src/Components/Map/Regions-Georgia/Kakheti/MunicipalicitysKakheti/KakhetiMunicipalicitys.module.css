@@ -8,6 +8,14 @@
 }
 
 .Akhmeta:hover {
-  fill: rebeccapurple;
+  fill: rgb(166, 227, 126);
   transition: 1s;
+}
+
+
+@media (max-width: 459px) {
+  .city{
+    width: 300px;
+    height: 200px;
+  }
 }

@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import Footer from "./Components/Footer/Footer";
 import MapGeorgia from "./Components/Map/Map-Georgia/Map-Georgia";
 import { Route, Routes } from "react-router-dom";
 import Ajara from "./Components/Map/Regions-Georgia/Ajara/Ajara";
@@ -18,10 +17,7 @@ import Akhmeta from "./Components/Map/Regions-Georgia/Kakheti/MunicipalicitysKak
 
 const App = () => {
   return (
-    <div className="app-wrapper">
-      {/* <Header />
-      <Navbar /> */}
-      <div className="site-wrapper-content">
+      <div>
         <Routes>
           <Route path="/*" element={<MapGeorgia />} />
           <Route path="/Ajara" element={<Ajara />} />
@@ -37,9 +33,7 @@ const App = () => {
           <Route path="/ShidaQartli" element={<ShidaQartli />} />
           <Route path="/Tbilisi" element={<Tbilisi />} />
         </Routes>
-        <Footer />
       </div>
-    </div>
   );
 };
 

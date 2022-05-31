@@ -2,13 +2,11 @@
     display: grid;
     grid-template-areas:
         "h h h"
-        "l c r";
+        "l c r"
+        "f f f";
 
     grid-template-columns: 3fr 6fr 3fr;
-    grid-template-rows: 1fr 0;
-    grid-auto-rows: minmax(100px, auto);
-    margin: 0;
-    padding: 0;
+    grid-template-rows: 1fr 7fr;
 }
 
 .header {
@@ -28,6 +26,30 @@
     margin: auto;
 }
 
-.svgMap {
+.footer {
+    grid-area: f;
+    text-align: center;
+
+}
+
+@media (max-width: 459px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+
+    }
+.header {
+    font-size: 8px;
+}
+.leftbar{
+    font-size: 10px;
+}
+.rightbar{
+    font-size: 10px;
+}
+
+.footer{
+    font-size: 8px;
+}
 
 }

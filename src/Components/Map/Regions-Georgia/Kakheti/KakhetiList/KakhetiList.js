@@ -5,6 +5,7 @@ import KakhetiLeftbar from "./KakhetiLeftbar/KakhetiLeftbar";
 import style from "./KakhetiList.module.css";
 import KakhetiRightbar from "./KakhetiRightbar/KakhetiRightbar ";
 import KakhetiMunicipalicitys from "../MunicipalicitysKakheti/KakhetiMunicipalicitys";
+import KakhetiFooter from "./KakhetiFooter/KakhetiFooter";
 
 const KakhetiList = () => {
   return (
@@ -23,6 +24,9 @@ const KakhetiList = () => {
           {/* <KakhetiSVG className={style.svgMap} /> */}
           <KakhetiMunicipalicitys />
         </NavLink>
+      </div>
+      <div className={style.footer}>
+        <KakhetiFooter />
       </div>
     </div>
   );

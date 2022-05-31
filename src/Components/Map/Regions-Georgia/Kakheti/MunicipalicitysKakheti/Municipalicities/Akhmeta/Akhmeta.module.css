@@ -1,33 +1,66 @@
 .wrapper {
     display: grid;
     grid-template-areas:
-        "h h h"
-        "a a a";
+        "h h"
+        "s A"
+        "f f";
 
-    grid-template-columns: 3fr 6fr 3fr;
+
+    grid-template-columns: 3fr 6fr;
     grid-template-rows: 1fr;
-    grid-auto-rows: minmax(100px, auto);
 }
 
-
-.Akhmeta {
-    fill: rgb(195, 191, 191);
-    transition: 1s;
-    cursor: pointer;
-    stroke-width: 1px;
-    stroke: rgb(249, 249, 249);
-    position: absolute;
-}
-
-.Akhmeta:hover {
-    fill: rebeccapurple;
-}
 
 .header {
     grid-area: h;
     text-align: center;
 }
 
+.sidebar {
+    grid-area: s;
+}
+
+
+.footer {
+    grid-area: f;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
 .Akhmeta {
-    grid-area: a;
+    grid-area: A;
+
+
+    fill: rgb(195, 191, 191);
+    transition: 1s;
+    stroke-width: 1px;
+    stroke: rgb(249, 249, 249);
+}
+
+@media (max-width: 459px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header {
+        font-size: 8px;
+    }
+
+    .sidebar {
+        font-size: 9px;
+    }
+
+    .Akhmeta {
+        width: 300px;
+        height: 320px;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+
 }

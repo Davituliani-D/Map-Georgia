@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+
+}
+h6 {
+    margin: 0;
+}
+
+@media (max-width: 459px) {
+    h6{
+        padding: 10px;
+    }
+}

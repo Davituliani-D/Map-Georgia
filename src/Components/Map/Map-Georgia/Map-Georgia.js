@@ -14,54 +14,82 @@ import style from "./Map-Georgia.module.css";
 import { NavLink } from "react-router-dom";
 import NavbarMapGeorgia from "./Navbar-Map-Georgia/Navbar-Map-Georgia";
 import HeaderMapGeorgia from "./Header-Map-Georgia/Header-Map-Georgia";
+import { Tooltip } from "@mui/material";
+import FooterMapGeorgia from "./Footer-Map-Georgia/Footer-Map-Georgia";
 
 const MapGeorgia = () => {
   return (
-    <div className={style.appWrapper}>
-      <HeaderMapGeorgia />
-      <NavbarMapGeorgia />
-      <div className={style.siteWrapper}>
-        <div className={style.geoMap}>
-          <div className={style.mainSVG}>
-            {/* <img src="https://www.geostat.ge/img/logo.svg" alt="logo" className={style.logo}/> */}
-            <svg viewBox="0 0 1000 512" className={style.svgMap}>
+    <div className={style.wrapper}>
+      <div className={style.header}>
+        <HeaderMapGeorgia />
+      </div>
+      <div className={style.navbar}>
+        <NavbarMapGeorgia />
+      </div>
+      <div className={style.geoMap}>
+        <div className={style.mainSVG}>
+          <svg viewBox="0 0 1000 512" className={style.svgMap}>
+            <Tooltip title="კახეთი">
               <NavLink to="/Kakheti">
                 <KakhetiMap />
               </NavLink>
-              <AbkhaziaMap />
+            </Tooltip>
+            <AbkhaziaMap />
+            <Tooltip title="აჭარა">
               <NavLink to="/Ajara">
                 <AjaraMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="სამცხე-ჯავახეთი">
               <NavLink to="/SamkhreJavakheti">
                 <SamkhreJavakhetiMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="ქვემო ქართლი">
               <NavLink to="/QvemoQartli">
                 <QvemoQartliMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="მცხეთა-მთიანეთი" placement="top-start">
               <NavLink to="/MtskhetaMtianeti">
                 <MtskhetaMtianetiMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="სამეგრელო-ზემო სვანეთი" placement="top-start">
               <NavLink to="/Samegrelo">
                 <SamegreloZemoSvanetiMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="რაჭა-ლეჩხუმი" placement="top-end">
               <NavLink to="/Racha">
                 <RachaQvemoSvanetiMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="შიდა ქართლი" placement="top-end">
               <NavLink to="/ShidaQartli">
                 <ShidaQartliMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="იმერეთი">
               <NavLink to="/Imereti">
                 <ImeretiMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="გურია" placement="left">
               <NavLink to="/Guria">
                 <GuriaMap />
               </NavLink>
+            </Tooltip>
+            <Tooltip title="თბილისი">
               <NavLink to="/Tbilisi">
                 <TbilisiMap />
               </NavLink>
-            </svg>
-          </div>
+            </Tooltip>
+          </svg>
         </div>
+      </div>
+      <div className={style.footer}>
+        <FooterMapGeorgia />
       </div>
     </div>
   );

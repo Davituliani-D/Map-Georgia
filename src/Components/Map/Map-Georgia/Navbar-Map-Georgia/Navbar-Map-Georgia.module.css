@@ -24,6 +24,13 @@ p:hover {
     align-items: center;
 }
 
-img{
+img {
     padding-right: 10px;
+}
+
+@media (max-width: 459px) {
+    .nav {
+        margin-top: 20px;
+        
+    }
 }
