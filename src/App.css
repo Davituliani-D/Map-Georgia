@@ -1,5 +1,9 @@
+svg {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
 @media screen and (max-width: 768) {
-    .wrapper{
-      display: -ms-inline-grid;
-    }
+  .wrapper {
+    display: -ms-inline-grid;
   }
+}

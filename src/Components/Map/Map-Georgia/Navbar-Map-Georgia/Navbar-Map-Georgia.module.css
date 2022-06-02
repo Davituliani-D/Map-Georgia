@@ -22,6 +22,11 @@ p:hover {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+
+    background-color: rgba(240, 248, 255, 0.737);
+    margin: 5px;
+    padding: 0 10px;
+    border-radius: 10px;
 }
 
 img {
@@ -31,6 +36,18 @@ img {
 @media (max-width: 459px) {
     .nav {
         margin-top: 20px;
-        
+        padding: center;
+    }
+
+    .navicon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        background-color: rgba(240, 248, 255, 0.737);
+        margin: 5px;
+        padding: 0 5px;
+        border-radius: 10px;
     }
 }

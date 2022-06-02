@@ -2,13 +2,15 @@
     display: grid;
     grid-template-areas:
         "h h"
-        "s A"
+        "s T"
         "f f";
 
 
     grid-template-columns: 3fr 6fr;
     grid-template-rows: 1fr;
-    background-image: url('https://georgiantravelguide.com/storage/files/akhmeta-1.jpg');
+    background-image: url('https://images.unsplash.com/photo-1567422856808-3c42a6767cd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3013&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -30,16 +32,16 @@
 
 
 
-.Akhmeta {
-    grid-area: A;
+.Telavi {
+    grid-area: T;
 
 
     fill: rgba(241, 239, 239, 0.465);
-    
+    transition: 1s;
     stroke-width: 1px;
     stroke: rgb(249, 249, 249);
 
-    margin-right: 300px;
+    margin-right: 200px;
 }
 
 

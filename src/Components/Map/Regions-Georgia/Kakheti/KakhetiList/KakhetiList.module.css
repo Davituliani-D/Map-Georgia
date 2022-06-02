@@ -29,7 +29,13 @@
 .footer {
     grid-area: f;
     text-align: center;
+    margin-top: 20px;
+}
 
+.container {
+    background-image: url('https://cdn.theculturetrip.com/wp-content/uploads/2020/01/gettyimages-1192369563.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 459px) {
@@ -38,18 +44,21 @@
         flex-direction: column;
 
     }
-.header {
-    font-size: 8px;
-}
-.leftbar{
-    font-size: 10px;
-}
-.rightbar{
-    font-size: 10px;
-}
 
-.footer{
-    font-size: 8px;
-}
+    .header {
+        font-size: 8px;
+    }
+
+    .leftbar {
+        font-size: 10px;
+    }
+
+    .rightbar {
+        font-size: 10px;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
 
 }

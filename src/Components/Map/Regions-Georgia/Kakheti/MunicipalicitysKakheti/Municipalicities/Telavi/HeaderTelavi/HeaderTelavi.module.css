@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    padding: 30px;
+}
+
+.button {
+    display: flex;
+
+    color: azure;
+
+}

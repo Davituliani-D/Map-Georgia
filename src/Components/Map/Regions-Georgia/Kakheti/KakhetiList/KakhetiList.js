@@ -9,24 +9,25 @@ import KakhetiFooter from "./KakhetiFooter/KakhetiFooter";
 
 const KakhetiList = () => {
   return (
-    <div className={style.wrapper}>
-      <div className={style.header}>
-        <KakhetiHeader />
-      </div>
-      <div className={style.leftbar}>
-        <KakhetiLeftbar />
-      </div>
-      <div className={style.rightbar}>
-        <KakhetiRightbar />
-      </div>
-      <div className={style.content}>
-        <NavLink to="/KakhetiList">
-          {/* <KakhetiSVG className={style.svgMap} /> */}
-          <KakhetiMunicipalicitys />
-        </NavLink>
-      </div>
-      <div className={style.footer}>
-        <KakhetiFooter />
+    <div className={style.container}>
+      <div className={style.wrapper}>
+        <div className={style.header}>
+          <KakhetiHeader />
+        </div>
+        <div className={style.leftbar}>
+          <KakhetiLeftbar />
+        </div>
+        <div className={style.rightbar}>
+          <KakhetiRightbar />
+        </div>
+        <div className={style.content}>
+          <NavLink to="/KakhetiList">
+            <KakhetiMunicipalicitys />
+          </NavLink>
+        </div>
+        <div className={style.footer}>
+          <KakhetiFooter />
+        </div>
       </div>
     </div>
   );

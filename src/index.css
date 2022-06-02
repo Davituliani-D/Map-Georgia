@@ -1,4 +1,8 @@
 /* * {box-shadow: 0 0 10px red inset}  */
+html {
+  height: 100%;
+  /* overflow: hidden; */
+}
 
 body {
   box-sizing: border-box;

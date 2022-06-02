@@ -23,7 +23,7 @@
 .footer {
   grid-area: f;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 120px;
 }
 
 .geoMap {
@@ -42,6 +42,13 @@
 .svgMap {
   padding: 40px;
 }
+
+.flag {
+  background-image: url('https://images.unsplash.com/photo-1539206684673-315a341d220a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+} 
 
 
 @media (max-width: 459px) {
@@ -75,4 +82,10 @@
     font-size: 8px;
 
   }
+  .flag {
+    background-image: url('https://images.unsplash.com/photo-1644270581576-236a3c3caf33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  } 
 }

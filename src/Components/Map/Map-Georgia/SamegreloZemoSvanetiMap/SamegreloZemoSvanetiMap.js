@@ -1,10 +1,12 @@
 import React from "react";
 import classes from "./SamegreloZemoSvanetiMap.module.css";
+import { motion } from "framer-motion";
 
 const SamegreloZemoSvanetiMap = () => {
   return (
     <svg viewBox="0 0 1000 512">
-      <path
+      <motion.path
+        whileHover={{ scale: 1.03 }}
         id="GEO3029"
         name="Samegrelo-Zemo Svaneti"
         className={classes.partSamegreloZemoSvaneti}

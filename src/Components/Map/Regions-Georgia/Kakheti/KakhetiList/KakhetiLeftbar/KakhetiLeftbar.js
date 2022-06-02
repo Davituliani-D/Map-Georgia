@@ -5,25 +5,25 @@ const KakhetiLeftbar = () => {
   return (
     <div className={style.leftbar}>
       <div>
-        <h2>რეგიონული სტატისტიკა </h2>
+        <h2 >რეგიონული სტატისტიკა </h2>
       </div>
       <div>
-        <p>ძირითადი ინფორმაცია</p>
+        <p className={style.bg}>ძირითადი ინფორმაცია</p>
       </div>
       <div>
-        <p>მოსახლეობა</p>
+        <p className={style.bg}>მოსახლეობა</p>
       </div>
       <div>
-        <p>დემოგრაფია</p>
+        <p className={style.bg}>დემოგრაფია</p>
       </div>
       <div>
-        <p>მშპ და დამატებული ღირებულება</p>
+        <p className={style.bg}>მშპ და დამატებული ღირებულება</p>
       </div>
       <div>
-        <p>პირდაპირი უცხოური ინვესტიციები</p>
+        <p className={style.bg}>პირდაპირი უცხოური ინვესტიციები</p>
       </div>
       <div>
-        <p>დასაქმება და ხელფასები</p>
+        <p className={style.bg}>დასაქმება და ხელფასები</p>
       </div>
     </div>
   );

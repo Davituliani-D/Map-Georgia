@@ -5,11 +5,15 @@
   height: 550px;
   stroke-width: 1px;
   stroke: rgb(249, 249, 249);
-}
 
+  
+}
 .Akhmeta:hover {
   fill: rgb(166, 227, 126);
   transition: 1s;
+}
+.Telavi:hover {
+  fill: burlywood;
 }
 
 
