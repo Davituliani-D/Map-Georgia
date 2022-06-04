@@ -7,6 +7,7 @@ import KakhetiRightbar from "./KakhetiRightbar/KakhetiRightbar ";
 import KakhetiMunicipalicitys from "../MunicipalicitysKakheti/KakhetiMunicipalicitys";
 import KakhetiFooter from "./KakhetiFooter/KakhetiFooter";
 
+
 const KakhetiList = () => {
   return (
     <div className={style.container}>

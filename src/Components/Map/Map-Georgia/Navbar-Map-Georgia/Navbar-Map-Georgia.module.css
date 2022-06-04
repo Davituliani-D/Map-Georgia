@@ -12,8 +12,7 @@ p {
 }
 
 p:hover {
-    cursor: pointer;
-    color: rgb(253, 3, 3);
+    cursor: text;
 
 }
 

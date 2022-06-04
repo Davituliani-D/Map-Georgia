@@ -1,4 +1,4 @@
-h2{
+h2 {
     text-align: center;
 }
 
@@ -6,11 +6,33 @@ h2{
     margin-top: 100px;
     padding: 10px;
 }
-.bg{
+
+.bg {
     background-color: rgba(240, 248, 255, 0.737);
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.mIcon {
+    filter: drop-shadow(0px 0px 0px);
+}
+
+.dIcon {
+    filter: drop-shadow(0px 0px 0px);
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+    display: flex;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: .5s;
+    color: rgb(230, 8, 8);
 }
 
 @media (max-width: 459px) {

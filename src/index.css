@@ -1,7 +1,11 @@
-/* * {box-shadow: 0 0 10px red inset}  */
+::-webkit-scrollbar { /* chrome based */
+  width: 0px;  /*  scrollbar */
+  background: transparent; 
+}
 html {
   height: 100%;
-  /* overflow: hidden; */
+  -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; 
 }
 
 body {
