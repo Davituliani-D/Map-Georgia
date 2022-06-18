@@ -4,7 +4,7 @@
     margin-top: 100px;
 }
 
-p {
+.nav p {
     margin-top: 15px;
     transition-property: color;
     transition-duration: .3s;

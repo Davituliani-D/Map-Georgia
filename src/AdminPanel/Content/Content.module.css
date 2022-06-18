@@ -1,0 +1,108 @@
+.content {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-rows: 1.1fr 0.9fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main main"
+        "card3 card4"
+        "row row";
+        background-color:lightgray;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "column1 mainCard";
+    grid-area: main;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.3fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "card1"
+        "card2";
+    grid-area: column1;
+
+}
+
+.card1 {
+    grid-area: card1;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card2 {
+    grid-area: card2;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.mainCard {
+    grid-area: mainCard;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card3 {
+    grid-area: card3;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card4 {
+    grid-area: card4;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 18px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "card5 card6 card7";
+    grid-area: row;
+}
+
+.card5 {
+    grid-area: card5;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card6 {
+    grid-area: card6;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card7 {
+    grid-area: card7;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}

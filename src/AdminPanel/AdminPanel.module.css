@@ -1,0 +1,102 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    grid-template-rows: 1.9fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "logo navBar"
+        "sideBar content";
+}
+
+/* ------------- Logo grid ------------- */
+.logo {
+    grid-area: logo;
+    background-color: white;
+}
+
+.cms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+
+/* ------------- Side Bar grid ------------- */
+
+.sideBar {
+    grid-area: sideBar;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 5px;
+    margin-left: 10px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    border-radius: 5px;
+}
+
+.sideBar ul {
+    padding-left: 20px;
+}
+
+.sideBar li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.sideBar li:hover {
+    background-color: rgba(185, 135, 232, 0.738);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+li .icon {
+    filter: none;
+    font-size: 20px;
+    color: rgba(37, 4, 69, 0.738);
+}
+
+.titleP {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 10px;
+    color: grey;
+    font-style: 12px;
+}
+
+/* ------------- Nav Bar grid ------------- */
+.navBar {
+    grid-area: navBar;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 4px;
+    position: fixed;
+    width: 85%;
+    margin-left: 225px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* ------------- Content grid ------------- */
+.content {
+    grid-area: content;
+    background-color: white;
+    margin-top: 70px;
+}

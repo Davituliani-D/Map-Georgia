@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.wrapper img {
+    padding: 15px;
+    margin-right: 25px;
+}
+
+.icon {
+    filter: none;
+    font-size: 30px;
+    color: rgba(37, 4, 69, 0.738);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.forCount {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.count {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 10px;
+    font-weight: bold;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

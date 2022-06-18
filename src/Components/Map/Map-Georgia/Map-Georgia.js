@@ -17,7 +17,8 @@ import HeaderMapGeorgia from "./Header-Map-Georgia/Header-Map-Georgia";
 import { Tooltip } from "@mui/material";
 import FooterMapGeorgia from "./Footer-Map-Georgia/Footer-Map-Georgia";
 
-const MapGeorgia = () => {
+
+const MapGeorgia = (props) => {
   return (
     <div className={style.flag}>
       <div className={style.wrapper}>
@@ -25,7 +26,7 @@ const MapGeorgia = () => {
           <HeaderMapGeorgia />
         </div>
         <div className={style.navbar}>
-          <NavbarMapGeorgia />
+          <NavbarMapGeorgia navbarData={props.navbarData} />
         </div>
         <div className={style.geoMap}>
           <div className={style.mainSVG}>
@@ -37,32 +38,32 @@ const MapGeorgia = () => {
               </Tooltip>
               <AbkhaziaMap />
               <Tooltip title="აჭარა">
-                <NavLink to="/Ajara">
+                <NavLink to="Ajara">
                   <AjaraMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="სამცხე-ჯავახეთი">
-                <NavLink to="/SamkhreJavakheti">
+                <NavLink to="SamkhreJavakheti">
                   <SamkhreJavakhetiMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="ქვემო ქართლი">
-                <NavLink to="/QvemoQartli">
+                <NavLink to="QvemoQartli">
                   <QvemoQartliMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="მცხეთა-მთიანეთი" placement="top-start">
-                <NavLink to="/MtskhetaMtianeti">
+                <NavLink to="MtskhetaMtianeti">
                   <MtskhetaMtianetiMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="სამეგრელო-ზემო სვანეთი" placement="top-start">
-                <NavLink to="/Samegrelo">
+                <NavLink to="Samegrelo">
                   <SamegreloZemoSvanetiMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="რაჭა-ლეჩხუმი" placement="top-end">
-                <NavLink to="/Racha">
+                <NavLink to="Racha">
                   <RachaQvemoSvanetiMap />
                 </NavLink>
               </Tooltip>
@@ -72,17 +73,17 @@ const MapGeorgia = () => {
                 </NavLink>
               </Tooltip>
               <Tooltip title="იმერეთი">
-                <NavLink to="/Imereti">
+                <NavLink to="Imereti">
                   <ImeretiMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="გურია" placement="left">
-                <NavLink to="/Guria">
+                <NavLink to="Guria">
                   <GuriaMap />
                 </NavLink>
               </Tooltip>
               <Tooltip title="თბილისი">
-                <NavLink to="/Tbilisi">
+                <NavLink to="Tbilisi">
                   <TbilisiMap />
                 </NavLink>
               </Tooltip>

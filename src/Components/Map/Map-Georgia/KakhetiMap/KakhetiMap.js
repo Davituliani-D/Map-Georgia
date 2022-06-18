@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../KakhetiMap/KakhetiMap.module.css";
 import { motion } from "framer-motion";
 
-const KakhetiMap = () => {
+const KakhetiMap = (props) => {
   return (
     <svg viewBox="0 0 1000 512">
       <motion.path

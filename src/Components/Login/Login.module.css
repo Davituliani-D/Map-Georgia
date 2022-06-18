@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1550668035-d00f4f6b4bc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+
+.formCntr {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(188, 232, 242, 0.235);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.formCntr label {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 185px;
+}
+
+.formCntr input {
+    background: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(12, 12, 12);
+    width: 250px;
+    transition: .5s;
+    
+}
+:focus{
+    outline: none;
+}
+
+.formCntr input:hover {
+    background-color:aliceblue;
+    transition: .5s;
+}
+
+.btn {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1.5px solid rgba(10, 10, 10, 0.956);
+    cursor: pointer;
+    transition: .3s;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.btn:hover {
+    transition: .3s;
+    background: rgba(255, 255, 255, 0.873);
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}

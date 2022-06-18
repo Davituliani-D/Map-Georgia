@@ -1,0 +1,19 @@
+.btn {
+    border: 2px solid rgba(12, 12, 12, 0.661);
+    float: right;
+    padding: 5px 15px;
+    margin-right:  100px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    color:  rgba(11, 11, 11, 0.661);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    color:aliceblue;
+    background-color: rgba(94, 151, 100, 0.577);
+    text-decoration: none;
+}

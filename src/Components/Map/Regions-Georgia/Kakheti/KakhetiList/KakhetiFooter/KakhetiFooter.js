@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./KakhetiFooter.module.css";
 
-const KakhetiFooter = () => {
+const KakhetiFooter = (props) => {
   return (
     <div className={style.footer}>
       <h6>
